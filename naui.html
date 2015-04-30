@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>
+
+
+	</title>
+	<script src="js/jquery.js"></script>
+	<script src= "js/nauifunc.js"></script>
+	<link rel="stylesheet" href="css/naui.css">
+</head>
+
+<body>
+
+	<section>
+
+
+		<div id = "header">
+			<h1>Scheduler</p>
+
+		</div>
+	<label> Starting Depth <input type="text" id="startDepth" name="StartingDepth"/></label>
+	
+	<label> First Dive Time <input type="text" id="fdt" name="FirstDiveTime"/></label>
+	<button onclick="calcPressureGroup()">Enter</button>
+	</div>
+
+	<p>Planning for a second dive:</p>
+	<label> Surface Interval Time <input type="text" id="sit" name="SurfaceIntervalTime"/></label>
+	<button onclick="calcPressureGroup2()">Enter</button>
+
+	<div id="box">
+  
+  <p>Time: <span id="time"></span></p>
+  <p>Depth: <span id="depth"></span></p>
+</div>
+</section>
+
+
+
+	<div id = "result"></div>
+
+	<div id = "table">
+		<img src= "Images for safety tip/Dive_tables_NAUI.jpg">
+	</div>
+	
+</body>
+</html>
