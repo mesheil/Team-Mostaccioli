@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>
+
+
+	</title>
+	<script src="js/jquery.js"></script>
+	<script src= "js/nauifunc.js"></script>
+	<link rel="stylesheet" href="css/naui.css">
+</head>
+
+<body>
+
+	<section>
+
+
+		<div id = "header">
+			<h1>Scheduler</h1>
+			<h2>Warning: This system and scheduler is a prototype! Do NOT use for actual dive planning!</h2>
+			<!--<a class ="navbar-brand" href = "#">DiveInfo.in</a>-->
+		</div>
+	<label> Starting Depth <input type="text" id="startDepth" name="StartingDepth"/></label>
+	
+	<label> First Dive Time <input type="text" id="fdt" name="FirstDiveTime"/></label>
+	<button onclick="calcPressureGroup()">Enter</button>
+	</div>
+
+	<p>Planning for a second dive:</p>
+	<label> Surface Interval Time <input type="text" id="sit" name="SurfaceIntervalTime"/></label>
+	<button onclick="calcPressureGroup2()">Enter</button>
+
+	<div id="box">
+  
+  <p>Time: <span id="time"></span></p>
+  <p>Depth: <span id="depth"></span></p>
+  <div id = "mark1">25ft</div>
+  <div id = "mark2">50ft</div>
+  <div id = "mark3">75ft</div>
+  <div id = "mark4">100ft</div>
+  <div id = "mark5">125ft</div>
+</div>
+</section>
+
+
+
+	<div id = "result"></div>
+
+	<div id = "table">
+		<h1>NAUI TABLE</p>
+		<img src= "Images for safety tip/Dive_tables_NAUI.jpg">
+	</div>
+	
+</body>
+</html>
