@@ -49,88 +49,88 @@ function calcPressureGroupJ()
   calcMaxFdt(startDepth);
 
 
-	if(startDepth <= 40 && fdt <= 5) {pressureGroup = "a";}
-	else if(startDepth <= 40 && fdt <= 15) {pressureGroup = "a";}
-	else if(startDepth <= 40 && fdt <= 25) {pressureGroup = "b";}
-	else if(startDepth <= 40 && fdt <= 30) {pressureGroup = "c";}
-	else if(startDepth <= 40 && fdt <= 40) {pressureGroup = "d";}
-	else if(startDepth <= 40 && fdt <= 50) {pressureGroup = "e";}
-	else if(startDepth <= 40 && fdt <= 70) {pressureGroup = "f";}
-	else if(startDepth <= 40 && fdt <= 80) {pressureGroup = "g";}
-	else if(startDepth <= 40 && fdt <= 100) {pressureGroup = "h";}
-	else if(startDepth <= 40 && fdt <= 110) {pressureGroup = "i";}
-	else if(startDepth <= 40 && fdt <= 130) {pressureGroup = "j";}
+	if(startDepth <= 40 && fdt < 5) {pressureGroup = "a";}
+	else if(startDepth <= 40 && fdt < 15) {pressureGroup = "a";}
+	else if(startDepth <= 40 && fdt < 25) {pressureGroup = "b";}
+	else if(startDepth <= 40 && fdt < 30) {pressureGroup = "c";}
+	else if(startDepth <= 40 && fdt < 40) {pressureGroup = "d";}
+	else if(startDepth <= 40 && fdt < 50) {pressureGroup = "e";}
+	else if(startDepth <= 40 && fdt < 70) {pressureGroup = "f";}
+	else if(startDepth <= 40 && fdt < 80) {pressureGroup = "g";}
+	else if(startDepth <= 40 && fdt < 100) {pressureGroup = "h";}
+	else if(startDepth <= 40 && fdt < 110) {pressureGroup = "i";}
+	else if(startDepth <= 40 && fdt < 130) {pressureGroup = "j";}
 
 
-	else if(startDepth <= 50 && fdt <= 10) {pressureGroup = "b";}
-	else if(startDepth <= 50 && fdt <= 15) {pressureGroup = "c";}
-	else if(startDepth <= 50 && fdt <= 25) {pressureGroup = "d";}
-	else if(startDepth <= 50 && fdt <= 30) {pressureGroup = "e";}
-	else if(startDepth <= 50 && fdt <= 40) {pressureGroup = "f";}
-	else if(startDepth <= 50 && fdt <= 50) {pressureGroup = "g";}
-	else if(startDepth <= 50 && fdt <= 60) {pressureGroup = "h";}
-	else if(startDepth <= 50 && fdt <= 70) {pressureGroup = "i";}
-	else if(startDepth <= 50 && fdt <= 80) {pressureGroup = "j";}
+	else if(startDepth <= 50 && fdt < 10) {pressureGroup = "b";}
+	else if(startDepth <= 50 && fdt < 15) {pressureGroup = "c";}
+	else if(startDepth <= 50 && fdt < 25) {pressureGroup = "d";}
+	else if(startDepth <= 50 && fdt < 30) {pressureGroup = "e";}
+	else if(startDepth <= 50 && fdt < 40) {pressureGroup = "f";}
+	else if(startDepth <= 50 && fdt < 50) {pressureGroup = "g";}
+	else if(startDepth <= 50 && fdt < 60) {pressureGroup = "h";}
+	else if(startDepth <= 50 && fdt < 70) {pressureGroup = "i";}
+	else if(startDepth <= 50 && fdt < 80) {pressureGroup = "j";}
 
 
-	else if(startDepth <= 60 && fdt <= 10) {pressureGroup = "b";}
-	else if(startDepth <= 60 && fdt <= 15) {pressureGroup = "c";}
-	else if(startDepth <= 60 && fdt <= 20) {pressureGroup = "d";}
-	else if(startDepth <= 60 && fdt <= 25) {pressureGroup = "e";}
-	else if(startDepth <= 60 && fdt <= 30) {pressureGroup = "f";}
-	else if(startDepth <= 60 && fdt <= 40) {pressureGroup = "g";}
-	else if(startDepth <= 60 && fdt <= 50) {pressureGroup = "h";}
-	else if(startDepth <= 60 && fdt <= 55) {pressureGroup = "i";}
+	else if(startDepth <= 60 && fdt < 10) {pressureGroup = "b";}
+	else if(startDepth <= 60 && fdt < 15) {pressureGroup = "c";}
+	else if(startDepth <= 60 && fdt < 20) {pressureGroup = "d";}
+	else if(startDepth <= 60 && fdt < 25) {pressureGroup = "e";}
+	else if(startDepth <= 60 && fdt < 30) {pressureGroup = "f";}
+	else if(startDepth <= 60 && fdt < 40) {pressureGroup = "g";}
+	else if(startDepth <= 60 && fdt < 50) {pressureGroup = "h";}
+	else if(startDepth <= 60 && fdt < 55) {pressureGroup = "i";}
 
 
-	else if(startDepth <= 70 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 70 && fdt <= 10) {pressureGroup = "c";}
-	else if(startDepth <= 70 && fdt <= 15) {pressureGroup = "d";}
-	else if(startDepth <= 70 && fdt <= 20) {pressureGroup = "e";}
-	else if(startDepth <= 70 && fdt <= 30) {pressureGroup = "f";}
-	else if(startDepth <= 70 && fdt <= 35) {pressureGroup = "g";}
-	else if(startDepth <= 70 && fdt <= 40) {pressureGroup = "h";}
-	else if(startDepth <= 70 && fdt <= 45) {pressureGroup = "i";}
+	else if(startDepth <= 70 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 70 && fdt < 10) {pressureGroup = "c";}
+	else if(startDepth <= 70 && fdt < 15) {pressureGroup = "d";}
+	else if(startDepth <= 70 && fdt < 20) {pressureGroup = "e";}
+	else if(startDepth <= 70 && fdt < 30) {pressureGroup = "f";}
+	else if(startDepth <= 70 && fdt < 35) {pressureGroup = "g";}
+	else if(startDepth <= 70 && fdt < 40) {pressureGroup = "h";}
+	else if(startDepth <= 70 && fdt < 45) {pressureGroup = "i";}
 
 
-	else if(startDepth <= 80 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 80 && fdt <= 10) {pressureGroup = "c";}
-	else if(startDepth <= 80 && fdt <= 15) {pressureGroup = "d";}
-	else if(startDepth <= 80 && fdt <= 20) {pressureGroup = "e";}
-	else if(startDepth <= 80 && fdt <= 25) {pressureGroup = "f";}
-	else if(startDepth <= 80 && fdt <= 30) {pressureGroup = "g";}
-	else if(startDepth <= 80 && fdt <= 35) {pressureGroup = "h";}
+	else if(startDepth <= 80 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 80 && fdt < 10) {pressureGroup = "c";}
+	else if(startDepth <= 80 && fdt < 15) {pressureGroup = "d";}
+	else if(startDepth <= 80 && fdt < 20) {pressureGroup = "e";}
+	else if(startDepth <= 80 && fdt < 25) {pressureGroup = "f";}
+	else if(startDepth <= 80 && fdt < 30) {pressureGroup = "g";}
+	else if(startDepth <= 80 && fdt < 35) {pressureGroup = "h";}
 
 
-	else if(startDepth <= 90 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 90 && fdt <= 10) {pressureGroup = "c";}
-	else if(startDepth <= 90 && fdt <= 12) {pressureGroup = "d";}
-	else if(startDepth <= 90 && fdt <= 15) {pressureGroup = "e";}
-	else if(startDepth <= 90 && fdt <= 20) {pressureGroup = "f";}
-	else if(startDepth <= 90 && fdt <= 25) {pressureGroup = "g";}
+	else if(startDepth <= 90 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 90 && fdt < 10) {pressureGroup = "c";}
+	else if(startDepth <= 90 && fdt < 12) {pressureGroup = "d";}
+	else if(startDepth <= 90 && fdt < 15) {pressureGroup = "e";}
+	else if(startDepth <= 90 && fdt < 20) {pressureGroup = "f";}
+	else if(startDepth <= 90 && fdt < 25) {pressureGroup = "g";}
 
 
-	else if(startDepth <= 100 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 100 && fdt <= 7) {pressureGroup = "c";}
-	else if(startDepth <= 100 && fdt <= 10) {pressureGroup = "d";}
-	else if(startDepth <= 100 && fdt <= 15) {pressureGroup = "e";}
-	else if(startDepth <= 100 && fdt <= 20) {pressureGroup = "f";}
-	else if(startDepth <= 100 && fdt <= 22) {pressureGroup = "g";}
+	else if(startDepth <= 100 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 100 && fdt < 7) {pressureGroup = "c";}
+	else if(startDepth <= 100 && fdt < 10) {pressureGroup = "d";}
+	else if(startDepth <= 100 && fdt < 15) {pressureGroup = "e";}
+	else if(startDepth <= 100 && fdt < 20) {pressureGroup = "f";}
+	else if(startDepth <= 100 && fdt < 22) {pressureGroup = "g";}
 
 
-	else if(startDepth <= 110 && fdt <= 5) {pressureGroup = "c";}
-	else if(startDepth <= 110 && fdt <= 10) {pressureGroup = "d";}
-	else if(startDepth <= 110 && fdt <= 13) {pressureGroup = "e";}
-	else if(startDepth <= 110 && fdt <= 15) {pressureGroup = "f";}
+	else if(startDepth <= 110 && fdt < 5) {pressureGroup = "c";}
+	else if(startDepth <= 110 && fdt < 10) {pressureGroup = "d";}
+	else if(startDepth <= 110 && fdt < 13) {pressureGroup = "e";}
+	else if(startDepth <= 110 && fdt < 15) {pressureGroup = "f";}
 
 
-	else if(startDepth <= 120 && fdt <= 5) {pressureGroup = "c";}
-	else if(startDepth <= 120 && fdt <= 10) {pressureGroup = "d";}
-	else if(startDepth <= 120 && fdt <= 12) {pressureGroup = "e";}
+	else if(startDepth <= 120 && fdt < 5) {pressureGroup = "c";}
+	else if(startDepth <= 120 && fdt < 10) {pressureGroup = "d";}
+	else if(startDepth <= 120 && fdt < 12) {pressureGroup = "e";}
 
 
-	else if(startDepth <= 130 && fdt <= 5) {pressureGroup = "c";}
-	else if(startDepth <= 130 && fdt <= 8) {pressureGroup = "d";}
+	else if(startDepth <= 130 && fdt < 5) {pressureGroup = "c";}
+	else if(startDepth <= 130 && fdt < 8) {pressureGroup = "d";}
 	else{;}
 
 	//totally not needed, just changes pressure group letter output to upper case..
@@ -142,6 +142,10 @@ function calcPressureGroupJ()
 	      {
 	      	capitalString = pressureGroup.toUpperCase();
 	      	node1 = document.createTextNode("Pressure Group is: " + capitalString);
+	      }
+	else if(startDepth > 130)
+	      {
+	      	node1 = document.createTextNode("Max depth is 130ft");
 	      }
 	else
 	      {
@@ -182,88 +186,88 @@ function calcPressureGroup()
   calcMaxFdt(startDepth);
 
 
-	if(startDepth <= 40 && fdt <= 5) {pressureGroup = "a";}
-	else if(startDepth <= 40 && fdt <= 15) {pressureGroup = "a";}
-	else if(startDepth <= 40 && fdt <= 25) {pressureGroup = "b";}
-	else if(startDepth <= 40 && fdt <= 30) {pressureGroup = "c";}
-	else if(startDepth <= 40 && fdt <= 40) {pressureGroup = "d";}
-	else if(startDepth <= 40 && fdt <= 50) {pressureGroup = "e";}
-	else if(startDepth <= 40 && fdt <= 70) {pressureGroup = "f";}
-	else if(startDepth <= 40 && fdt <= 80) {pressureGroup = "g";}
-	else if(startDepth <= 40 && fdt <= 100) {pressureGroup = "h";}
-	else if(startDepth <= 40 && fdt <= 110) {pressureGroup = "i";}
-	else if(startDepth <= 40 && fdt <= 130) {pressureGroup = "j";}
+	if(startDepth <= 40 && fdt < 5) {pressureGroup = "a";}
+	else if(startDepth <= 40 && fdt < 15) {pressureGroup = "a";}
+	else if(startDepth <= 40 && fdt < 25) {pressureGroup = "b";}
+	else if(startDepth <= 40 && fdt < 30) {pressureGroup = "c";}
+	else if(startDepth <= 40 && fdt < 40) {pressureGroup = "d";}
+	else if(startDepth <= 40 && fdt < 50) {pressureGroup = "e";}
+	else if(startDepth <= 40 && fdt < 70) {pressureGroup = "f";}
+	else if(startDepth <= 40 && fdt < 80) {pressureGroup = "g";}
+	else if(startDepth <= 40 && fdt < 100) {pressureGroup = "h";}
+	else if(startDepth <= 40 && fdt < 110) {pressureGroup = "i";}
+	else if(startDepth <= 40 && fdt < 130) {pressureGroup = "j";}
 
 
-	else if(startDepth <= 50 && fdt <= 10) {pressureGroup = "b";}
-	else if(startDepth <= 50 && fdt <= 15) {pressureGroup = "c";}
-	else if(startDepth <= 50 && fdt <= 25) {pressureGroup = "d";}
-	else if(startDepth <= 50 && fdt <= 30) {pressureGroup = "e";}
-	else if(startDepth <= 50 && fdt <= 40) {pressureGroup = "f";}
-	else if(startDepth <= 50 && fdt <= 50) {pressureGroup = "g";}
-	else if(startDepth <= 50 && fdt <= 60) {pressureGroup = "h";}
-	else if(startDepth <= 50 && fdt <= 70) {pressureGroup = "i";}
-	else if(startDepth <= 50 && fdt <= 80) {pressureGroup = "j";}
+	else if(startDepth <= 50 && fdt < 10) {pressureGroup = "b";}
+	else if(startDepth <= 50 && fdt < 15) {pressureGroup = "c";}
+	else if(startDepth <= 50 && fdt < 25) {pressureGroup = "d";}
+	else if(startDepth <= 50 && fdt < 30) {pressureGroup = "e";}
+	else if(startDepth <= 50 && fdt < 40) {pressureGroup = "f";}
+	else if(startDepth <= 50 && fdt < 50) {pressureGroup = "g";}
+	else if(startDepth <= 50 && fdt < 60) {pressureGroup = "h";}
+	else if(startDepth <= 50 && fdt < 70) {pressureGroup = "i";}
+	else if(startDepth <= 50 && fdt < 80) {pressureGroup = "j";}
 
 
-	else if(startDepth <= 60 && fdt <= 10) {pressureGroup = "b";}
-	else if(startDepth <= 60 && fdt <= 15) {pressureGroup = "c";}
-	else if(startDepth <= 60 && fdt <= 20) {pressureGroup = "d";}
-	else if(startDepth <= 60 && fdt <= 25) {pressureGroup = "e";}
-	else if(startDepth <= 60 && fdt <= 30) {pressureGroup = "f";}
-	else if(startDepth <= 60 && fdt <= 40) {pressureGroup = "g";}
-	else if(startDepth <= 60 && fdt <= 50) {pressureGroup = "h";}
-	else if(startDepth <= 60 && fdt <= 55) {pressureGroup = "i";}
+	else if(startDepth <= 60 && fdt < 10) {pressureGroup = "b";}
+	else if(startDepth <= 60 && fdt < 15) {pressureGroup = "c";}
+	else if(startDepth <= 60 && fdt < 20) {pressureGroup = "d";}
+	else if(startDepth <= 60 && fdt < 25) {pressureGroup = "e";}
+	else if(startDepth <= 60 && fdt < 30) {pressureGroup = "f";}
+	else if(startDepth <= 60 && fdt < 40) {pressureGroup = "g";}
+	else if(startDepth <= 60 && fdt < 50) {pressureGroup = "h";}
+	else if(startDepth <= 60 && fdt < 55) {pressureGroup = "i";}
 
 
-	else if(startDepth <= 70 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 70 && fdt <= 10) {pressureGroup = "c";}
-	else if(startDepth <= 70 && fdt <= 15) {pressureGroup = "d";}
-	else if(startDepth <= 70 && fdt <= 20) {pressureGroup = "e";}
-	else if(startDepth <= 70 && fdt <= 30) {pressureGroup = "f";}
-	else if(startDepth <= 70 && fdt <= 35) {pressureGroup = "g";}
-	else if(startDepth <= 70 && fdt <= 40) {pressureGroup = "h";}
-	else if(startDepth <= 70 && fdt <= 45) {pressureGroup = "i";}
+	else if(startDepth <= 70 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 70 && fdt < 10) {pressureGroup = "c";}
+	else if(startDepth <= 70 && fdt < 15) {pressureGroup = "d";}
+	else if(startDepth <= 70 && fdt < 20) {pressureGroup = "e";}
+	else if(startDepth <= 70 && fdt < 30) {pressureGroup = "f";}
+	else if(startDepth <= 70 && fdt < 35) {pressureGroup = "g";}
+	else if(startDepth <= 70 && fdt < 40) {pressureGroup = "h";}
+	else if(startDepth <= 70 && fdt < 45) {pressureGroup = "i";}
 
 
-	else if(startDepth <= 80 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 80 && fdt <= 10) {pressureGroup = "c";}
-	else if(startDepth <= 80 && fdt <= 15) {pressureGroup = "d";}
-	else if(startDepth <= 80 && fdt <= 20) {pressureGroup = "e";}
-	else if(startDepth <= 80 && fdt <= 25) {pressureGroup = "f";}
-	else if(startDepth <= 80 && fdt <= 30) {pressureGroup = "g";}
-	else if(startDepth <= 80 && fdt <= 35) {pressureGroup = "h";}
+	else if(startDepth <= 80 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 80 && fdt < 10) {pressureGroup = "c";}
+	else if(startDepth <= 80 && fdt < 15) {pressureGroup = "d";}
+	else if(startDepth <= 80 && fdt < 20) {pressureGroup = "e";}
+	else if(startDepth <= 80 && fdt < 25) {pressureGroup = "f";}
+	else if(startDepth <= 80 && fdt < 30) {pressureGroup = "g";}
+	else if(startDepth <= 80 && fdt < 35) {pressureGroup = "h";}
 
 
-	else if(startDepth <= 90 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 90 && fdt <= 10) {pressureGroup = "c";}
-	else if(startDepth <= 90 && fdt <= 12) {pressureGroup = "d";}
-	else if(startDepth <= 90 && fdt <= 15) {pressureGroup = "e";}
-	else if(startDepth <= 90 && fdt <= 20) {pressureGroup = "f";}
-	else if(startDepth <= 90 && fdt <= 25) {pressureGroup = "g";}
+	else if(startDepth <= 90 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 90 && fdt < 10) {pressureGroup = "c";}
+	else if(startDepth <= 90 && fdt < 12) {pressureGroup = "d";}
+	else if(startDepth <= 90 && fdt < 15) {pressureGroup = "e";}
+	else if(startDepth <= 90 && fdt < 20) {pressureGroup = "f";}
+	else if(startDepth <= 90 && fdt < 25) {pressureGroup = "g";}
 
 
-	else if(startDepth <= 100 && fdt <= 5) {pressureGroup = "b";}
-	else if(startDepth <= 100 && fdt <= 7) {pressureGroup = "c";}
-	else if(startDepth <= 100 && fdt <= 10) {pressureGroup = "d";}
-	else if(startDepth <= 100 && fdt <= 15) {pressureGroup = "e";}
-	else if(startDepth <= 100 && fdt <= 20) {pressureGroup = "f";}
-	else if(startDepth <= 100 && fdt <= 22) {pressureGroup = "g";}
+	else if(startDepth <= 100 && fdt < 5) {pressureGroup = "b";}
+	else if(startDepth <= 100 && fdt < 7) {pressureGroup = "c";}
+	else if(startDepth <= 100 && fdt < 10) {pressureGroup = "d";}
+	else if(startDepth <= 100 && fdt < 15) {pressureGroup = "e";}
+	else if(startDepth <= 100 && fdt < 20) {pressureGroup = "f";}
+	else if(startDepth <= 100 && fdt < 22) {pressureGroup = "g";}
 
 
-	else if(startDepth <= 110 && fdt <= 5) {pressureGroup = "c";}
-	else if(startDepth <= 110 && fdt <= 10) {pressureGroup = "d";}
-	else if(startDepth <= 110 && fdt <= 13) {pressureGroup = "e";}
-	else if(startDepth <= 110 && fdt <= 15) {pressureGroup = "f";}
+	else if(startDepth <= 110 && fdt < 5) {pressureGroup = "c";}
+	else if(startDepth <= 110 && fdt < 10) {pressureGroup = "d";}
+	else if(startDepth <= 110 && fdt < 13) {pressureGroup = "e";}
+	else if(startDepth <= 110 && fdt < 15) {pressureGroup = "f";}
 
 
-	else if(startDepth <= 120 && fdt <= 5) {pressureGroup = "c";}
-	else if(startDepth <= 120 && fdt <= 10) {pressureGroup = "d";}
-	else if(startDepth <= 120 && fdt <= 12) {pressureGroup = "e";}
+	else if(startDepth <= 120 && fdt < 5) {pressureGroup = "c";}
+	else if(startDepth <= 120 && fdt < 10) {pressureGroup = "d";}
+	else if(startDepth <= 120 && fdt < 12) {pressureGroup = "e";}
 
 
-	else if(startDepth <= 130 && fdt <= 5) {pressureGroup = "c";}
-	else if(startDepth <= 130 && fdt <= 8) {pressureGroup = "d";}
+	else if(startDepth <= 130 && fdt < 5) {pressureGroup = "c";}
+	else if(startDepth <= 130 && fdt < 8) {pressureGroup = "d";}
 	else{;}
 
 	//totally not needed, just changes pressure group letter output to upper case..
@@ -276,6 +280,10 @@ function calcPressureGroup()
 	      	capitalString = pressureGroup.toUpperCase();
 	      	node1 = document.createTextNode("Pressure Group is: " + capitalString);
 	      }
+	else if(startDepth > 130)
+	      {
+	      	node1 = document.createTextNode("Max depth is 130ft");
+	      }      
 	else
 	      {
 	      	node1 = document.createTextNode("Max fdt for this depth is: " + maxFdt);
@@ -709,8 +717,6 @@ function calcPressureGroup2()
 	  	  var item = document.getElementById("result").childNodes[0];
 	  	  item.replaceChild(node3, item.childNodes[0]);
 	    }
-
-
 }
 
 
