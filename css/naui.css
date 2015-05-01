@@ -2,7 +2,7 @@ body
 {
   padding: 0;
   margin: 0;
-	background-color: #aaa;
+	background-color: #0174DF;
 	color: white;
 	text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -30,7 +30,7 @@ button
 {
   margin: 0;
   padding: 0;
-  background-color: #777;
+  background-color: #0B0B61;
   height: 10%;
   box-shadow: 0px 3px 5px #444;
   text-align: center;
@@ -146,7 +146,7 @@ span {
 {
   margin: 0;
   padding: 0;
-  background-color: #777;
+  background-color: #0B0B61;
   height: 10%;
   box-shadow: 0px 3px 5px #444;
   text-align: center;
