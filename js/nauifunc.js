@@ -17,8 +17,8 @@ $("#box").mousemove(function(e){
     var x = Math.round((e.pageX - this.offsetLeft)/10);
     var y = Math.round((e.pageY - this.offsetTop)/3.84);
     //Do what you need with X and/or (e.g.
-    $("#time").text(x + 'min');
-    $("#depth").text(y + 'ft');
+    $("#time").text(x + 'min. ');
+    $("#depth").text(y + 'ft. ');
 	});
 $("#box").mousedown(function(e){
 	fdt = Math.round((e.pageX - this.offsetLeft)/10);

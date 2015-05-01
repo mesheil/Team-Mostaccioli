@@ -6,19 +6,83 @@
 	</title>
 	<script src="js/jquery.js"></script>
 	<script src= "js/nauifunc.js"></script>
-	<link rel="stylesheet" href="css/naui.css">
+	
+	    
+		<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/naui.css">
+
+
 </head>
 
 <body>
 
 	<section>
 
+		<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style='background-color:#0B0B61;'>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Diveinfo.in</a>
+            </div>
 
-		<div id = "header">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="index.html#home">Home</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="index.html#portfolio">Safety tips</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#services">Information</a>
+                    </li>
+                    
+                    
+                   <li>
+                        <a class="page-scroll" href="naui.html" target="_blank">Scheduler</a>
+                    </li>
+					<!------- 	
+				   <li>
+                        <a class="page-scroll" href="#contact">Hiring!!</a>
+                    </li> ------>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+ <div style='left-padding:2cm;'>
+	<center>
 			<h1>Scheduler</h1>
 			<h2>Warning: This system and scheduler is a prototype! Do NOT use for actual dive planning!</h2>
 			<!--<a class ="navbar-brand" href = "#">DiveInfo.in</a>-->
 		</div>
+	<table style='margin: 1cm 0cm 0cm 1cm;'>
+	<tr>
+	<td>
 	<label> Starting Depth <input type="text" id="startDepth" name="StartingDepth"/></label>
 	
 	<label> First Dive Time <input type="text" id="fdt" name="FirstDiveTime"/></label>
@@ -29,7 +93,14 @@
 	<label> Surface Interval Time <input type="text" id="sit" name="SurfaceIntervalTime"/></label>
 	<button onclick="calcPressureGroup2()">Enter</button>
 
-	<div id="box">
+	
+	</td>
+	</tr>
+	</table>	
+</section>
+
+
+<div id="box">
   
   <p>Time: <span id="time"></span></p>
   <p>Depth: <span id="depth"></span></p>
@@ -39,13 +110,9 @@
   <div id = "mark4">100ft</div>
   <div id = "mark5">125ft</div>
 </div>
-</section>
-
-
-
 	<div id = "result"></div>
 
-	<div id = "table">
+	<div id = "table" style='margin:0cm;'><center>
 		<h1>NAUI TABLE</p>
 		<img src= "Images for safety tip/Dive_tables_NAUI.jpg">
 	</div>
