@@ -164,3 +164,11 @@ h1
 {
   max-height: 10%;
 }
+
+.navbar-brand
+{
+  font-size: 2em;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  float: left;
+}
+
